@@ -1,0 +1,56 @@
+
+    *{/*default code of css must*/
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+    body{
+ background: darkcyan
+    }
+   main{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   #container{
+       border: 2px black solid;
+       max-width: 500px; height: auto;
+       background-color: darkolivegreen;
+       padding: 55px;
+       box-shadow: 1px 1px 15px 3px blueviolet;
+       font-weight: bold;
+     }
+     h1{
+         color:black;
+         margin-bottom: 10px;
+         text-shadow: 1px 2px 1px yellowgreen;
+         text-transform: capitalize;
+     }
+     label{
+        
+         display: block;
+         color:rgb(4, 14, 14);
+         font-size: large;
+         text-transform: capitalize;
+         margin-top: 25px;
+     }
+     input{
+       width: 350px;
+       padding: 8px 0;
+     }
+     button{
+        border-radius: 10px;
+        padding: 15px 25px;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: none;
+        color:aqua;
+        background: darkgreen;
+        box-shadow: 1px 1px 4px 1px green;
+     margin-top: 18px;
+    }
+  
